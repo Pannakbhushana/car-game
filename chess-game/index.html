@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chesspiece.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="naming">
+            <div class="nameRow"><h2>8</h2></div>
+            <div class="nameRow"><h2>7</h2></div>
+            <div class="nameRow"><h2>6</h2></div>
+            <div class="nameRow"><h2>5</h2></div>
+            <div class="nameRow"><h2>4</h2></div>
+            <div class="nameRow"><h2>3</h2></div>
+            <div class="nameRow"><h2>2</h2></div>
+            <div class="nameRow"><h2>1</h2></div>
+            
+        </div>
+
+       <div class="box">
+    
+        <div class="column">   <!-------8-------->
+            <div class="row" id="a8"></div>                 <!-------a8-------->
+            <div class="row black" id="b8"></div>           <!-------b8-------->
+            <div class="row" id="c8"></div>                 <!-------c8-------->
+            <div class="row black" id="d8" ></div>          <!-------d8-------->
+            <div class="row" id="e8"></div>                 <!-------e8-------->
+            <div class="row black" id="f8"></div>
+            <div class="row" id="g8"></div>
+            <div class="row black" id="h8"></div>
+        </div>
+
+           <!-----------------------------------black-pawn ------------------------------------->
+        <div class="column">    <!-------7-------->
+                <div class="row black" id="a7"></div>
+                <div class="row" id="b7"></div>
+                <div class="row black" id="c7"></div>
+                <div class="row" id="d7"></div>
+                <div class="row black" id="e7"></div>
+                <div class="row" id="f7"></div>
+                <div class="row black" id="g7"></div>
+                <div class="row" id="h7"></div>
+            </div>
+
+            <div class="column">    <!-------6-------->
+                <div class="row" id="a6"></div>
+                <div class="row black" id="b6"></div>
+                <div class="row" id="c6"></div>
+                <div class="row black" id="d6"></div>
+                <div class="row" id="e6"></div>
+                <div class="row black" id="f6"></div>
+                <div class="row" id="g6"></div>
+                <div class="row black" id="h6"></div>
+            </div>
+
+            <div class="column">    <!-------5-------->
+                <div class="row black" id="a5"></div>
+                <div class="row" id="b5"></div>
+                <div class="row black" id="c5"></div>
+                <div class="row" id="d5"></div>
+                <div class="row black" id="e5"></div>
+                <div class="row" id="f5"></div>
+                <div class="row black" id="g5"></div>
+                <div class="row" id="h5"></div>
+            </div>
+
+            <div class="column">    <!-------4-------->
+                <div class="row" id="a4"></div>
+                <div class="row black" id="b4"></div>
+                <div class="row" id="c4"></div>
+                <div class="row black" id="d4"></div>
+                <div class="row" id="e4"></div>
+                <div class="row black" id="f4"></div>
+                <div class="row" id="g4"></div>
+                <div class="row black" id="h4"></div>
+            </div>
+
+            <div class="column">    <!-------3-------->
+                <div class="row black" id="a3"></div>
+                <div class="row" id="b3"></div>
+                <div class="row black" id="c3"></div>
+                <div class="row" id="d3"></div>
+                <div class="row black" id="e3"></div>
+                <div class="row" id="f3"></div>
+                <div class="row black" id="g3"></div>
+                <div class="row" id="h3"></div>
+            </div>
+
+    <!-----------------------------------white-pawn ------------------------------------->
+            <div class="column">    <!-------2-------->
+                <div class="row" id="a2"></div>
+                <div class="row black" id="b2"></div>
+                <div class="row" id="c2"></div>
+                <div class="row black" id="d2"></div>
+                <div class="row" id="e2"></div>
+                <div class="row black" id="f2"></div>
+                <div class="row" id="g2"></div>
+                <div class="row black" id="h2"></div>
+            </div>
+
+            <div class="column">    <!-------1-------->
+                <div class="row black" id="a1"></div>
+                <div class="row" id="b1"></div>
+                <div class="row black" id="c1"></div>
+                <div class="row" id="d1"></div>
+                <div class="row black" id="e1"></div>
+                <div class="row" id="f1"></div>
+                <div class="row black" id="g1"></div>
+                <div class="row" id="h1"></div>
+            </div>
+
+
+
+
+
+            <div class="column" style="height: 20px; border: 1px solid white;">
+                <div class="naminfColumn"><h2>A</h2></div>
+                <div class="naminfColumn"><h2>B</h2></div>
+                <div class="naminfColumn"><h2>C</h2></div>
+                <div class="naminfColumn"><h2>D</h2></div>
+                <div class="naminfColumn"><h2>E</h2></div>
+                <div class="naminfColumn"><h2>F</h2></div>
+                <div class="naminfColumn"><h2>G</h2></div>
+                <div class="naminfColumn"><h2>H</h2></div>
+                
+            </div>
+       </div>
+       
+
+
+
+       <div class="info">
+            <h1>informations</h1>
+       </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>
